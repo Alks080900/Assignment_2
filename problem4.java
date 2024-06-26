@@ -10,6 +10,6 @@ public class problem4 {
         System.out.println("Before casting the sum of floats: " + floatSum);
         System.out.println("The sum of all floats that has been casted is: " + sumOfFloat);
         //Manually calculate the sum of float inside the Math round function.
-        System.out.println("the sum of the floats as an integer, obtained by rounding the sum to the nearest integer, is : " + Math.round(a+b+c));
+        System.out.println("the sum of the floats as an integer, obtained by rounding the sum to the nearest integer, is : " + Math.round(floatSum));
     }
 }
