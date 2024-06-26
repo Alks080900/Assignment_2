@@ -33,7 +33,7 @@ public class problem2 {
 
         String [] delimeters = records.split(":");
         //Validation checking if the delimeters has been applied.
-        //System.out.println(Arrays.toString(split));
+        //System.out.println(Arrays.toString(delimeters));
 
         //Applied for each loop to store the split records.
         for (String record : delimeters) {
